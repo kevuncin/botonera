@@ -14,10 +14,10 @@ buttons.forEach(button => {
         console.log(`Botón ${sound} presionado`);
 
         // Si el botón es el de pedo, reproducir el sonido
-        if (sound === './sonidos/pedo.mp4') {
+      //  if (sound === './sonidos/pedo.mp4') {
             let audio = new Audio(sound);
             audio.play();
-        }
+      //  }
 
         // Remover la clase de animación después de que termine
         setTimeout(() => {
