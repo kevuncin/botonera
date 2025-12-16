@@ -36,6 +36,28 @@ h1 {
     gap: 20px;
 }
 
+.mario-btn-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sombrero-mario {
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 24px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.mario-btn-wrapper .btn {
+    margin-top: 18px;
+}
+
 .btn {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border: none;

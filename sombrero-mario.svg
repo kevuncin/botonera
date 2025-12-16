@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32" width="32" height="16">
+  <ellipse cx="32" cy="28" rx="28" ry="4" fill="#000" opacity="0.2"/>
+  <path d="M8 24 Q16 4 32 4 Q48 4 56 24 Z" fill="#e74c3c" stroke="#b03a2e" stroke-width="2"/>
+  <ellipse cx="32" cy="12" rx="8" ry="3" fill="#fff"/>
+  <text x="32" y="18" text-anchor="middle" font-size="10" font-family="Arial" fill="#fff" font-weight="bold">M</text>
+</svg>
